@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="utf-8">
+		<script src=js/jquery.js></script>
+		<script src=js/logic.js></script>
+		<title>Pizza App</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+		<script>
+			function myFunction() {
+				alert("You customized pizza has been ordered. Thanks you! See you in 30 seconds!");
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="container">
+			<div class="header">
+				<br>
+				<!--<h1><span><i>MY PIZZA SHOP</i></span></h1>-->
+			</div>
+		
+		
+			<div class="contentbody">
+				<h1>Lord Krishna's Indian Pizzas</h1>
+					<p>Welcome Pizza Lovers! Please place your order. Remember, if we don't deliver your pizza in 30 seconds or less, it's FREE! No joke :)</p>
+					<p2><img src="css/krishna.jpeg" alt="Paneer Pizza" style="width:304px;height:228px;"></p2>
+
+			
+			</div>
+
+			<div class="menu">
+				<h4><u>Order your customized Pizza</u></h4> <br/>
+				 <form action="" onsubmit="myFunction()">
+					<p><b>Choose your toppings</b></p>
+					  <input type="checkbox" name="topping" value="Paneer(Indian Cheese)" checked="checked">Paneer(Indian Xheese)<br>
+ 					  <input type="checkbox" name="topping" value="Chicken Tikka">Chicken Tikka<br>
+					  <input type="checkbox" name="topping" value="Samosa">Samosa(Spiced Potato)<br>
+					  <input type="checkbox" name="topping" value="Papri">Papri<br>
+					  <br /><br />
+					<p><b>Choose your pizza's size</b></p>
+					  <select>
+						  <option value="Small">Small</option>
+						  <option value="Regular">Regular</option>
+						  <option value="Medium">Medium</option>
+						  <option value="Large">Large</option>
+     					  <option value="Extra Large">Extra Large</option>
+					  </select> 
+				    <br/><br>
+					<input type="submit" value="Submit">
+				</form> 	
+				</div>
+			</div>
+	</body>
+
+	<footer>
+		<p>Thank you for your order!<p>
+	</footer>
+	
+	</div>
+
+	</html>
