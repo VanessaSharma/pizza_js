@@ -1,13 +1,13 @@
 #container { 
 		position: static;
-	 	background: aqua;
+	 	background: lightblue;
 	  	margin:  auto; 
 	  	text-align: justify;
 	   	width: 900px;
 	    }
 			
 .header{
-	background-image: url("bg.jpg");
+	background-image: url("https://thumbs.dreamstime.com/x/pizza-delivery-service-cartoon-8989918.jpg");
 	border-top: 15px solid yellow;
 	border-left: 15px solid white;
 	border-right: 15px solid white;
@@ -26,15 +26,15 @@
 }
 
 .contentbody p{
-	color: brown;
+	color: black;
 	padding: 10px 30px 10px 20px;
 	line-height: 30px;
-	text-align: justify;
+	text-align: center;
 	font: sans-serif;
 }
 
 .contentbody >h1{
-	color: brown;
+	color: black;
 	padding: 10px 30px 10px 20px;
 	text-align: justify;
 	font: sans-serif;
@@ -45,7 +45,7 @@ h1 span, h2{
 	font: sans-serif;
 }
 body{
-	background: url("bkg.jpg");
+	background: url("http://1.bp.blogspot.com/-Cjj3kbc_PYs/Vpfx_I0G9jI/AAAAAAAAEbA/R5v4OHANTW8/s1600/DSC_5550.jpg");
 }
 
 .menu { 
@@ -69,7 +69,7 @@ body{
 
 li a { 
 	font: italic 100% algerian;
-	color: green;
+	color: white;
 	display: block;
 }
 
@@ -80,4 +80,8 @@ footer p{
 	   	width: 890px;		
 		background: greenyellow;
 		color: white;
+}
+
+img {
+    border-radius: 50%;
 }
