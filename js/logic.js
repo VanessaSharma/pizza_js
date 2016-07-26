@@ -1,4 +1,3 @@
-// Required logic
 
 	//toppings and size of customer's pizza
 var yourPizza = {
