@@ -23,7 +23,7 @@ _None as of most recent version._
 
 ## Support and contact details
 
-_If you have any questions or comments, feel free to contact Vanessa Palacios Sharma at vanelunasharma@gmail.com. Thank you!_
+_If you have any questions or comments, feel free to contact Vanessa Palacios Sharma at com. Thank you!_
 
 ## Technologies Used
 
